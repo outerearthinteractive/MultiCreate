@@ -2,7 +2,9 @@ package com.d4l3k.MultiCreate;
 
 import java.util.logging.Logger;
 
+import org.bukkit.Location;
 import org.bukkit.Server;
+import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -33,4 +35,14 @@ public class Main extends JavaPlugin {
 	}
 	private final WorldListener worldListener = new WorldListener(this);
 	private final InteractListener playerListener = new InteractListener(this);
+	
+	public boolean playerShouldCreate(Player player)
+	{
+		Location loc = player.getLocation();
+		if(loc.getBlockX()>=0)
+		{
+			return true;
+		}
+		return false;
+	}
 }
