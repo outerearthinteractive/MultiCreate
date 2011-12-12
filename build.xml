@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project name="MultiCreate" default="build" basedir="src/">
-  <target name ="build" description="Compile MultiCreate into a jar">
-    <jar jarfile="MultiCreate.jar" includes="*.class" basedir="bin"/>
-  </target>
-</project>
