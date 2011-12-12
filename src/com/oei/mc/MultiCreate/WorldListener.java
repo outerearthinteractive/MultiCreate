@@ -1,4 +1,4 @@
-package com.d4l3k.MultiCreate;
+package com.oei.mc.MultiCreate;
 
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockListener;
