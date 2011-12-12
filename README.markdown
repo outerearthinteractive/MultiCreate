@@ -6,7 +6,9 @@ By default it makes x>=0 creative and everything else survival.
 
 Setup
 ---
-Download the [bleeding edge jar here](https://github.com/outerearthinteractive/MultiCreate/raw/master/MultiCreate.jar). This is the development branch and auto built. There will be a more stable version later.
+1. Download the [bleeding edge jar here](https://github.com/outerearthinteractive/MultiCreate/raw/master/MultiCreate.jar). This is the development branch and auto built. There will be a more stable version later.
+2. Put the jar into the bukkit plugins folder.
+3. Run the server.
 
 By
 ---
