@@ -28,7 +28,7 @@ public class Main extends JavaPlugin {
 		pm.registerEvent(Event.Type.PLAYER_MOVE, playerListener, Event.Priority.Highest, this);
 		pm.registerEvent(Event.Type.PLAYER_PICKUP_ITEM, playerListener, Event.Priority.Highest, this);
 
-		debug("is enabled; by d4l3k;");
+		debug("is enabled; by d4l3k and arkaniad"); //together, forever <3
 	}
 	public void onDisable(){
 		debug("has been disabled;");
