@@ -1,0 +1,8 @@
+name: Link
+main: com.d4l3k.Link.Core
+version: 0.1alpha
+commands:
+   link:
+      description: This controls Link.
+      usage: |
+       /<command> edit/off
