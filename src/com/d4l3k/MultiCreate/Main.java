@@ -9,7 +9,6 @@ import org.bukkit.event.Event;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.d4l3k.MultiCreate.*;
 
 public class Main extends JavaPlugin {
 	static Logger log = Logger.getLogger("Minecraft");
